@@ -62,6 +62,7 @@ const App = () => {
   const handleDelete = async(id) => {
     try {
       await axios.delete(`http://localhost:3000/users/${id}`)
+      alert('User Deleted Successfully.')
       getAllUsers();
     } catch (error) {
       console.log(error.message);
