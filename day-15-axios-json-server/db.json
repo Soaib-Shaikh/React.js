@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "3f0c",
+      "username": "soaib",
+      "email": "soaib@mailinator.com",
+      "password": "Pa$$w0rd!"
+    },
+    {
+      "id": "9094",
+      "username": "bysiz",
+      "email": "myfuzebahu@mailinator.com",
+      "password": "Pa$$w0rd!"
+    },
+    {
+      "id": "272c",
+      "username": "tadal",
+      "email": "cugyvylos@mailinator.com",
+      "password": "Pa$$w0rd!"
+    }
+  ]
+}
