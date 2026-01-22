@@ -61,8 +61,6 @@ const App = () => {
     }
   }
 
- 
-
   useEffect(()=>{
     getAllBooks()
   },[])
@@ -88,7 +86,7 @@ const App = () => {
   const handelEdit = (id) => {
     const data = list.find(val => val.id == id);
     setBook(data);
-    navigate("/")
+    navigate("/add-book")
   }
 
   return (
